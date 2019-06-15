@@ -6,9 +6,12 @@ namespace CoreEscuela
     {
         static void Main(string[] args)
         {
-            var escuela = new Escuela();
-            escuela.Nombre="Norman Olbrick";
-            Console.WriteLine(escuela.Nombre);
+            var escuela = new Escuela("Norman Olbrick", 2001);
+             escuela.Pais="Argentina";
+             escuela.Ciudad="Claypole";
+             escuela.TipoEscuela=TiposEscuela.Primaria;
+            Console.WriteLine(escuela);
+            
 
 
         }
