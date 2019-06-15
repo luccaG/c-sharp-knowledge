@@ -18,10 +18,10 @@ namespace CoreEscuela
         {
             Console.WriteLine("Hello World!");
              var escuelita = new Escuela();
-             escuelita.nombre="Chinga Tu Madre";
-             escuelita.direccion="A la verga ";     
+             escuelita.nombre="ROsthwood";
+             escuelita.direccion="Monte Coman 561 ";     
              escuelita.añoFundacion=2003;
-             Console.WriteLine(" a la huewva ");
+             Console.WriteLine(" timbre");
              escuelita.Timbrar();
              
                 }
